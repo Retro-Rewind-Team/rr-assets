@@ -1,17 +1,17 @@
-name: "Track Suggestion"
-description: "Track suggestion form for team members and contributors only!"
-labels: ["track", "suggestion", "discussion"]
+name: "Track Update Suggestion"
+description: "Track update suggestion form for team members and contributors only!"
+labels: ["track", "update", "discussion"]
 body:
 - type: "markdown"
   attributes:
-    value: "This form **only** serves Retro Rewind **team members and contributors** to suggest features to the dev team\n\nPeople outside of the team are not permitted to raise feature suggestions. Feel free to discuss your ideas on the [Retro Rewind Discord Server](https://discord.gg/RetroRewind). The reason behind the developers not taking feature suggestions can be found in the feature-suggestions channel on Discord."
+    value: "This form **only** serves Retro Rewind **team members and contributors** to suggest track updates to the dev team.\n\nPeople outside of the team are not permitted to raise track update suggestions. Feel free to discuss your ideas on the [Retro Rewind Discord Server](https://discord.gg/RetroRewind). The philosophy behind the team not taking direct track update suggestions can be found in the feature-suggestions channel on Discord."
 - type: "markdown"
   attributes:
-    value: "### Suggestion guidelines\n- Please only suggest features, that you expect a significant number of the broad Retro Rewind player base to adopt.\n  - Examples for this are: Prediction Removal, Competitive Matchmaking, Advanced Sound Settings\n  - If the feature would be one only used by a niche group of players, try to think bigger. Consider thinking a few steps ahead to make the feature useful for the broad Retro Rewind player base.\n  - Examples for exceptions are: Mii Heads in friend rooms, Disable Random Combo Button\n- Unless absolutely necessary, don't suggest features taken from other packs."
+    value: "### Suggestion guidelines\n- Please only suggest track updates, that you expect a significant number of the broad Retro Rewind player base to enjoy.\n  - Examples for this are: Improved item box placement, KCL changes etc."
 - type: "checkboxes"
   attributes:
     label: "Authorization check"
-    description: "By checking this box, you agree that you are authorized to make a feature suggestion. If you are not authorized, your issue may be closed without explanation."
+    description: "By checking this box, you agree that you are authorized to make a track update suggestion. If you are not authorized, your issue may be closed without explanation."
     options:
     - label: "Yes"
       required: true
@@ -26,13 +26,13 @@ body:
     required: true
 - type: "textarea"
   attributes:
-    label: "Feature description"
-    description: "What would the feature you're suggesting do?"
+    label: "Track update description"
+    description: "What would the track update you're suggesting do?"
   validations:
     required: true
 - type: "textarea"
   attributes:
     label: "Pitch"
-    description: "What makes this feature stand out and be useful for the broad Retro Rewind player base?"
+    description: "What makes this track update stand out and be useful for the broad Retro Rewind player base?"
   validations:
     required: true
