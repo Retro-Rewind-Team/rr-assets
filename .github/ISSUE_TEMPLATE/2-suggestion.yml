@@ -1,6 +1,6 @@
 name: "Track Suggestion"
 description: "Track suggestion form for team members and contributors only!"
-labels: ["track", "suggestion"]
+labels: ["track", "suggestion", "discussion"]
 body:
 - type: "markdown"
   attributes:
