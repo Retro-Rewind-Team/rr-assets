@@ -1,6 +1,6 @@
 name: "Track Problem"
 description: "Track problem form for team members and contributors only!"
-labels: ["track"]
+labels: ["track", "problem"]
 body:
 - type: "markdown"
   attributes:
