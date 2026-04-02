@@ -7,10 +7,11 @@ To contribute a tutorial, contact 4ab on Discord, open a Discord ticket on the [
 ## Missing tutorials (written or video)
 - Play on Steam Deck with Wheel Wizard
 - Play with Retroarch
-- Play on Xbox
+- Play on Xbox (!examplejson)
 - Play offline with Wii U VC injection on Gamepad
 - Build a patched ISO on MacOS and Linux (video preferred)
 
 ## Missing video tutorials
 - How to update USB Loader GX and install the USB Loader GX forwarder
 - How to use portable Dolphin with Wheel Wizard (!portable)
+- Play on iOS
