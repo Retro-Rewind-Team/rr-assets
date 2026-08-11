@@ -13,6 +13,5 @@ To contribute a tutorial, contact 4ab on Discord, open a Discord ticket on the [
 
 ## Missing video tutorials
 - How to update USB Loader GX and install the USB Loader GX forwarder
-- How to use portable Dolphin with Wheel Wizard (!portable)
 - Play on iOS
 - Play with Riivolution and basic troubleshooting steps (pinned in #tech-support)
